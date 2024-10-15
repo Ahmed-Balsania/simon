@@ -23,7 +23,7 @@
   level++;
   h2.innerText=`Level ${level}`;
 
-  let rannum = Math.floor(Math.random()*3);
+  let rannum = Math.floor(Math.random()*4);
   let rancol = items[rannum];
   let randombut = document.querySelector(`.${rancol}`);
   flash(randombut);
